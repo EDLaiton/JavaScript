@@ -10,17 +10,18 @@ if(nombre === "Ada School" && nota >= 7) {
 
 const verdadero = "Positivo";
 const falso = "Negativo";
-let pos = 1;
-let neg = -1;
+let pos = 5;
+let neg = 3;
 
-if(verdadero === "Positivo") {
-    console.log("El número " + pos + " es " + verdadero)
-} else {
-    console.log("El numero no es positivo")
-}
-
-if(falso === "Negativo") {
+if(neg <= 0) {
     console.log("El número " + neg + " es " + falso)
 } else {
-    console.log("El numero es positivo")
+    console.log("El numero " + neg + " es " + verdadero)
 }
+
+
+if(pos >= 0) {
+    console.log("El número " + pos + " es " + verdadero)
+} else {
+    console.log("El numero " + pos + " es " + falso)
+} 

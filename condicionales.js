@@ -1,3 +1,4 @@
+//Condicionales
 /*
 const nombre = "Ada School";
 let edad = 123;

@@ -1,5 +1,6 @@
 //Arrays
 
+/* 
 let frutas = []
 
 frutas[0] = "manzanas"
@@ -25,6 +26,18 @@ MyFamily[5] = "Luciana"
 MyFamily[6] = "Tyra"
 
 console.log(MyFamily)
+*/
+let frutas2 = [
+    "bananos",
+     "guayabas", 
+     "manzanas", 
+     "durazno", 
+     "platanos", 
+     "fresas"
+    ];
 
-let frutas2 = ["bananos", "guayabas", "manzanas", "durazno", "true", "false"]
-console.log(frutas2)
+for (let i=0; i < frutas2.length; i++) {
+    if(frutas2[i] === "platanos"){
+        console.log("Se encuentra en el inventario " + frutas2[i])
+    }
+}

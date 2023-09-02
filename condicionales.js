@@ -1,3 +1,4 @@
+/*
 const nombre = "Ada School";
 let edad = 123;
 let nota = 8;
@@ -7,7 +8,9 @@ if(nombre === "Ada School" && nota >= 7) {
 } else {
     console.log("Nombre no existe");
 }
+*/
 
+/*
 const verdadero = "Positivo";
 const falso = "Negativo";
 let pos = 5;
@@ -25,3 +28,10 @@ if(pos >= 0) {
 } else {
     console.log("El numero " + pos + " es " + falso)
 } 
+*/
+
+function areaCircunferencia(radio) {
+    const pi = 3.1415169;
+    const resultado = pi * radio * radio;
+    // console.log(resultado)
+}
